@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "./organisms/Header";
 
 const App = () => {
-  return (
-    <div>
-      url shortener
-    </div>
-  )
-}
+	return (
+		<div className="flex flex-col font-body font-medium">
+			<Header />
+		</div>
+	);
+};
 
-export default App
+export default App;
