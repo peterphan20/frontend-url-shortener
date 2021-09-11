@@ -1,10 +1,22 @@
 import React from "react";
+import URLShortener from "./molecules/URLShortener";
 import Header from "./organisms/Header";
+import TopHero from "./organisms/TopHero";
+// import bgBoostMobile from "./assets/bg-boost-mobile.svg";
+// import bgBoostDesktop from "./assets/bg-boost-desktop.svg";
+// import bgShortenDesktop from "./assets/bg-shorten-desktop.svg";
+// import bgShortenMobile from "./assets/bg-shorten-mobile.svg";
 
 const App = () => {
 	return (
-		<div className="flex flex-col font-body font-medium">
+		<div className="font-body font-medium w-full h-full min-h-screen">
 			<Header />
+			<TopHero />
+			<URLShortener />
+			{/* <img src={bgBoostMobile} /> */}
+			{/* <img src={bgShortenMobile} /> */}
+			{/* <img src={bgBoostDesktop} /> */}
+			{/* <img src={bgShortenDesktop} /> */}
 		</div>
 	);
 };

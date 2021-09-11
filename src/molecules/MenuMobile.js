@@ -11,7 +11,7 @@ const MenuMobile = ({ setOpen, isOpen }) => {
 
 	return (
 		<div
-			className={`flex flex-col justify-center items-center fixed top-0 left-0 z-10 bg-purple-900 rounded-xl w-full transition-all duration-500 ease-out transform ${
+			className={`flex flex-col justify-center items-center fixed top-0 left-0 z-10 bg-violet rounded-xl w-full transition-all duration-500 ease-out transform ${
 				isOpen ? "px-8 py-10 translate-y-28" : "opacity-0 -translate-y-full"
 			}`}
 		>
