@@ -4,7 +4,7 @@ import illustration from "../assets/illustration-working.svg";
 const TopHero = () => {
 	return (
 		<div className="text-center pt-28 pb-5 px-3">
-			<img src={illustration} alt="person sitting at a desk" />
+			<img src={illustration} aria-label="person sitting at a desk" />
 			<div className="py-10 px-3">
 				<h1 className="text-3xl font-bold pb-4">More than just shorter links</h1>
 				<p className="text-lg text-gray-400 pb-5">

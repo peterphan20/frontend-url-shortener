@@ -1,5 +1,6 @@
 import React from "react";
 import URLShortener from "./molecules/URLShortener";
+import Footer from "./organisms/Footer";
 import Header from "./organisms/Header";
 import TopHero from "./organisms/TopHero";
 // import bgBoostMobile from "./assets/bg-boost-mobile.svg";
@@ -9,10 +10,11 @@ import TopHero from "./organisms/TopHero";
 
 const App = () => {
 	return (
-		<div className="font-body font-medium w-full h-full min-h-screen">
+		<div className="font-body font-medium w-full h-full">
 			<Header />
 			<TopHero />
 			<URLShortener />
+			<Footer />
 			{/* <img src={bgBoostMobile} /> */}
 			{/* <img src={bgShortenMobile} /> */}
 			{/* <img src={bgBoostDesktop} /> */}

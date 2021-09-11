@@ -12,6 +12,7 @@ module.exports = {
 			backgroundColor: {
 				cyan: "hsl(180, 66%, 49%)",
 				violet: "hsl(257, 27%, 26%)",
+				footer: "hsl(260, 8%, 14%)",
 			},
 			fontFamily: {
 				body: ["Poppins", "sans-serif"],
