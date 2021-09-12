@@ -5,11 +5,11 @@ import FooterLinks from "../atoms/FooterLinks";
 const FooterLinksList = () => {
 	return (
 		<>
-			<FooterLinkHeaders text="Feature" />
+			<FooterLinkHeaders text="Features" />
 			<FooterLinks text="Link Shortening" />
 			<FooterLinks text="Branded Links" />
 			<FooterLinks text="Analytics" />
-			<FooterLinkHeaders text="Resource" />
+			<FooterLinkHeaders text="Resources" />
 			<FooterLinks text="Blog" />
 			<FooterLinks text="Developers" />
 			<FooterLinks text="Support" />

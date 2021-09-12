@@ -34,7 +34,7 @@ const Header = () => {
 	};
 
 	return (
-		<div className="flex justify-between items-center fixed top-0 left-0 text-gray-900 py-8 px-8 z-20 w-full lg:py-3 lg:px-56">
+		<div className="flex justify-between items-center relative text-gray-900 py-8 px-8 z-20 w-full lg:py-3 lg:px-56">
 			<p className="text-4xl font-bold">Shortly</p>
 			{showMenu()}
 			<MenuMobile setOpen={setOpen} isOpen={isOpen} />

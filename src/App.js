@@ -1,8 +1,10 @@
 import React from "react";
-import URLShortener from "./molecules/URLShortener";
+import URLShortener from "./organisms/URLShortener";
+import BrandDescription from "./organisms/BrandDescription";
 import Footer from "./organisms/Footer";
 import Header from "./organisms/Header";
 import TopHero from "./organisms/TopHero";
+import BottomHero from "./organisms/BottomHero";
 // import bgBoostMobile from "./assets/bg-boost-mobile.svg";
 // import bgBoostDesktop from "./assets/bg-boost-desktop.svg";
 // import bgShortenDesktop from "./assets/bg-shorten-desktop.svg";
@@ -14,11 +16,9 @@ const App = () => {
 			<Header />
 			<TopHero />
 			<URLShortener />
+			<BrandDescription />
+			<BottomHero />
 			<Footer />
-			{/* <img src={bgBoostMobile} /> */}
-			{/* <img src={bgShortenMobile} /> */}
-			{/* <img src={bgBoostDesktop} /> */}
-			{/* <img src={bgShortenDesktop} /> */}
 		</div>
 	);
 };
