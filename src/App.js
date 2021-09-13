@@ -5,10 +5,6 @@ import Footer from "./organisms/Footer";
 import Header from "./organisms/Header";
 import TopHero from "./organisms/TopHero";
 import BottomHero from "./organisms/BottomHero";
-// import bgBoostMobile from "./assets/bg-boost-mobile.svg";
-// import bgBoostDesktop from "./assets/bg-boost-desktop.svg";
-// import bgShortenDesktop from "./assets/bg-shorten-desktop.svg";
-// import bgShortenMobile from "./assets/bg-shorten-mobile.svg";
 
 const App = () => {
 	return (
