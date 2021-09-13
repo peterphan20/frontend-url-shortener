@@ -1,9 +1,9 @@
 import React from "react";
 
-const FooterIcon = ({ src, label }) => {
+const FooterIcon = ({ className = " " }) => {
 	return (
 		<>
-			<img src={src} className="text-gray-100 text-xl " aria-label={label} />
+			<i className={`${className} text-gray-100 text-2xl cursor-pointer hover:text-cyan`} />
 		</>
 	);
 };

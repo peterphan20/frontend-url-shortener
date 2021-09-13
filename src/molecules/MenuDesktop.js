@@ -9,14 +9,14 @@ const MenuDesktop = () => {
 				<MenuAnchorDesktop text="Pricing" className="hover:text-gray-900" />
 				<MenuAnchorDesktop text="Resources" className="hover:text-gray-900" />
 			</div>
-			<div className="flex items-center gap-6">
+			<div className="flex items-center gap-3">
 				<MenuAnchorDesktop
 					text="Login"
-					className="rounded-3xl py-1 px-4 hover:bg-cyan hover:text-gray-100"
+					className="rounded-3xl py-2 px-5 hover:bg-cyan hover:text-gray-100"
 				/>
 				<MenuAnchorDesktop
 					text="Sign Up"
-					className="rounded-3xl py-1 px-4 hover:bg-cyan hover:text-gray-100"
+					className="rounded-3xl py-2 px-5 hover:bg-cyan hover:text-gray-100"
 				/>
 			</div>
 		</div>

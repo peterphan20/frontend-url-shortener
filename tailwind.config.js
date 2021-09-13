@@ -9,13 +9,13 @@ module.exports = {
 				"shorten-desktop": "url('./assets/bg-shorten-desktop.svg')",
 				"shorten-mobile": "url('./assets/bg-shorten-mobile.svg')",
 			}),
-			backgroundColor: {
+			fontFamily: {
+				body: ["Poppins", "sans-serif"],
+			},
+			colors: {
 				cyan: "hsl(180, 66%, 49%)",
 				violet: "hsl(257, 27%, 26%)",
 				footer: "hsl(260, 8%, 14%)",
-			},
-			fontFamily: {
-				body: ["Poppins", "sans-serif"],
 			},
 		},
 	},
