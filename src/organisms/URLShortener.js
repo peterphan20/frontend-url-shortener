@@ -11,7 +11,6 @@ const URLShortener = () => {
 		const response = await shortenURL(text);
 		if (response.ok) {
 			setLinks(response.result);
-			console.log(links);
 		} else {
 			setResponseFailure(response);
 		}
