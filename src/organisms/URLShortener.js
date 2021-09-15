@@ -4,13 +4,14 @@ import ShortenedLinks from "../molecules/ShortenedLinks";
 
 const URLShortener = () => {
 	const [text, setText] = useState("");
-	const [links, setLinks] = useState("");
+	const [links, setLinks] = useState([]);
 	const [responseFailure, setResponseFailure] = useState("");
 
 	const onShortenSubmit = async () => {
 		const response = await shortenURL(text);
 		if (response.ok) {
 			setLinks(response.result);
+			console.log(links);
 		} else {
 			setResponseFailure(response);
 		}
@@ -24,7 +25,7 @@ const URLShortener = () => {
 						<input
 							type="text"
 							placeholder="Shorten a link here..."
-							className={`text-gray-900 text-lg rounded-lg outline-none py-3 pl-4 w-full h-full ${
+							className={`text-gray-900 text-base rounded-lg outline-none py-3 pl-4 w-full h-full lg:text-xl ${
 								responseFailure ? "placeholder-red-400 border-2 border-red-600" : ""
 							}`}
 							onChange={(e) => setText(e.target.value)}
@@ -45,7 +46,7 @@ const URLShortener = () => {
 					<p className="text-red-600 text-sm pt-2">Error occurred</p>
 				) : null}
 			</div>
-			{links ? <ShortenedLinks links={links} /> : null}
+			<ShortenedLinks links={links} />
 		</div>
 	);
 };
