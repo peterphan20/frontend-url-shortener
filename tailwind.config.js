@@ -8,6 +8,7 @@ module.exports = {
 				"boost-mobile": "url('./assets/bg-boost-mobile.svg')",
 				"shorten-desktop": "url('./assets/bg-shorten-desktop.svg')",
 				"shorten-mobile": "url('./assets/bg-shorten-mobile.svg')",
+				"split-white-gray": "linear-gradient(to bottom, white 50% , #E5E7EB 50%);",
 			}),
 			fontFamily: {
 				body: ["Poppins", "sans-serif"],

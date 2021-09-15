@@ -8,7 +8,7 @@ import BottomHero from "./organisms/BottomHero";
 
 const App = () => {
 	return (
-		<div className="font-body font-medium w-full h-full">
+		<div className="bg-gray-50 font-body font-medium w-full h-full">
 			<Header />
 			<TopHero />
 			<URLShortener />

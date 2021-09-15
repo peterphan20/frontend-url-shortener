@@ -3,7 +3,7 @@ import illustration from "../assets/illustration-working.svg";
 
 const TopHero = () => {
 	return (
-		<div className="text-center pt-8 pb-32 px-3 w-full h-full lg:flex lg:flex-row-reverse lg:justify-center lg:items-center lg:pl-52 lg:pr-40 lg:pb-44">
+		<div className="text-center pt-8 pb-24 px-3 w-full h-full lg:flex lg:flex-row-reverse lg:justify-center lg:items-center lg:pl-52 lg:pr-40 lg:pb-44">
 			<img src={illustration} aria-label="person sitting at a desk" />
 			<div className="py-10 px-3 lg:text-left lg:pr-28">
 				<h1 className="text-3xl font-bold pb-4 lg:text-6xl lg:leading-tight">More than just shorter links</h1>

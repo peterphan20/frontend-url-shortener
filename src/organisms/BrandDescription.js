@@ -6,7 +6,7 @@ import iconBrandCustomizable from "../assets/icon-fully-customizable.svg";
 
 const BrandDescription = () => {
 	return (
-		<div className="bg-gray-200 text-center pt-40 pb-20">
+		<div className="bg-gray-200 text-center pb-20">
 			<span id="features" className="block relative -top-10 lg:-top-28" />
 			<h1 className="text-3xl font-bold text-gray-900 pb-5 lg:text-4xl">Advanced Statistics</h1>
 			<p className="text-lg text-gray-400 pb-20">
