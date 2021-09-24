@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple URL shortenter application. Created for a frontendmentor.io challenge where the assets are provided but you are allowed to implement the design in any way you wish. For this challenge I chose the technologies listed below. The file structure is inspired by Atomic Design but it does not implement every possible tier in the specification due to project size.
+This is a simple URL shortener application. Created for a frontendmentor.io challenge where the assets are provided but you are allowed to implement the design in any way you wish. For this challenge I chose the technologies listed below. The file structure is inspired by Atomic Design but it does not implement every possible tier in the specification due to project size.
 
 ## Technologies
 
