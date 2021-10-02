@@ -12,15 +12,11 @@ This is a simple URL shortener application. Created for a frontendmentor.io chal
 
 ## Installation
 
-Enter your project directory
-
-`cd project-directory`
-
 Clone the repository
 
 `git clone https://github.com/peterphan20/frontend-url-shortener.git`
 
-Move into the created directory
+Move into repository
 
 `cd frontend-url-shortener`
 
@@ -31,6 +27,8 @@ Install dependencies
 ## Usage
 
 The user can take any URL and shorten it to a more manageable URL. If the user clicks on the shorten link it will redirect them to the original site.
+
+![URL shortener](https://media.giphy.com/media/pUGWlBWRIPRGrP9t4V/giphy.gif)
 
 ## Contributing
 
